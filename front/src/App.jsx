@@ -52,6 +52,7 @@ function App() {
   return (
     <>
       <h1 className='text-center mt-12 font-bold h-full'>{isConnected ? 'Usuario Conectado' : 'No conectado'}</h1>
+      <h2 className='text-center p-2 text-xl'>Esperar aproximadamente 1 minuto hasta que se conecte con el servidor</h2>
 
       <div className='m-0 h-[90vh] py-12 grid grid-rows-1 place-content-center'>
         <section className='border-2 rounded-md overflow-hidden w-[350px] h-full relative'>
